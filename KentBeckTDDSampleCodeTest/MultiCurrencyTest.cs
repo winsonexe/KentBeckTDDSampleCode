@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using KentBeckTDDSampleCode;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace KentBeckTDDSampleCodeTest
 {
@@ -10,9 +11,8 @@ namespace KentBeckTDDSampleCodeTest
         public void TestMultiplication()
         {
             Dollar five = new Dollar(5);
-            five.times(2);
+            five.Times(2);
             Assert.Equals(10, five.amount);
         }
     }
-}
 }
