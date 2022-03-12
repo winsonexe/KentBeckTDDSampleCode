@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KentBeckTDDSampleCode", "KentBeckTDDSampleCode.csproj", "{EA55406F-6E01-4600-8603-7ADB0E16BABD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KentBeckTDDSampleCodeTest", "..\KentBeckTDDSampleCodeTest\KentBeckTDDSampleCodeTest.csproj", "{EF8A9E9C-6F46-4C33-ACBF-60532483FDF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EA55406F-6E01-4600-8603-7ADB0E16BABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA55406F-6E01-4600-8603-7ADB0E16BABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA55406F-6E01-4600-8603-7ADB0E16BABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8A9E9C-6F46-4C33-ACBF-60532483FDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8A9E9C-6F46-4C33-ACBF-60532483FDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8A9E9C-6F46-4C33-ACBF-60532483FDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8A9E9C-6F46-4C33-ACBF-60532483FDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

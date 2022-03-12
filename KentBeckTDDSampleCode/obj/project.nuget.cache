@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "86EpQGw74pDs9Ulc9r6d+j8Bb1aegGtYWR3nBoCe0aD4jUwMQ1c/SnjbSUwbWBQDhE6FL/hz5vbggWo5pwng5Q==",
+  "dgSpecHash": "whEdrqPaeSSrbIW7h74cC2Cvyias7p6cPabNsmppls+cDn51U/dnLRHCDjn3FVB9Hw8qnbpqD3I8Ou6H7DVSGQ==",
   "success": true,
   "projectFilePath": "D:\\WinsonProject\\KentBeckTDDSampleCode_Winson\\KentBeckTDDSampleCode\\KentBeckTDDSampleCode.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\winson.zhong\\.nuget\\packages\\fluentassertions\\6.5.1\\fluentassertions.6.5.1.nupkg.sha512",
+    "C:\\Users\\winson.zhong\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\winson.zhong\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\winson.zhong\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\winson.zhong\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\winson.zhong\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\winson.zhong\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
