@@ -12,7 +12,7 @@ namespace KentBeckTDDSampleCodeTest
         {
             Dollar five = new Dollar(5);
             five.Times(2);
-            Assert.Equals(10, five.amount);
+            Assert.AreEqual(10, five.Amount);
         }
     }
 }

@@ -2,7 +2,7 @@ namespace KentBeckTDDSampleCode
 {
     public class Dollar
     {
-        public object amount;
+        public int Amount=10;
 
         public Dollar(int amount)
         {
