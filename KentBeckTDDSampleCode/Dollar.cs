@@ -17,7 +17,8 @@ namespace KentBeckTDDSampleCode
 
         public override bool Equals(object obj)
         {
-            return true;
+            Dollar dollar = (Dollar) obj;
+            return Amount == dollar.Amount;
         }
     }
 }
