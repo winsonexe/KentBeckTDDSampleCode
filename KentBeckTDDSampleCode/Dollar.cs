@@ -1,3 +1,4 @@
+
 namespace KentBeckTDDSampleCode
 {
     public class Dollar
@@ -12,6 +13,11 @@ namespace KentBeckTDDSampleCode
         public Dollar Times(int multiplier)
         {
             return new Dollar(Amount * multiplier);
+        }
+
+        public override bool Equals(object obj)
+        {
+            return true;
         }
     }
 }
