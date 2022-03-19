@@ -15,8 +15,8 @@
 
         public override bool Equals(object obj)
         {
-            Franc franc = (Franc)obj;
-            return Amount == franc.Amount;
+            Money money = (Money)obj;
+            return Amount == money.Amount;
         }
     }
 }
