@@ -1,8 +1,7 @@
 ﻿namespace KentBeckTDDSampleCode
 {
-    public class Franc
+    public class Franc : Money
     {
-        public int Amount;
 
         public Franc(int amount)
         {
