@@ -14,10 +14,5 @@ namespace KentBeckTDDSampleCode
             return new Dollar(Amount * multiplier);
         }
 
-        public override bool Equals(object obj)
-        {
-            Dollar dollar = (Dollar) obj;
-            return Amount == dollar.Amount;
-        }
     }
 }
