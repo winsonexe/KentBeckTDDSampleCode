@@ -8,11 +8,18 @@ namespace KentBeckTDDSampleCodeTest
     {
         //5美元*2=10美元
         [TestMethod]
-        public void TestMultiplication()
+        public void TestDollarMultiplication()
         {
             Dollar five = new Dollar(5);
-            Assert.AreEqual(new Dollar(10), five.Times(2)); //讓兩個物件做比較
-            Assert.AreEqual(new Dollar(15), five.Times(3));  //讓兩個物件做比較
+            Assert.AreEqual(new Dollar(10), five.Times(2)); 
+            Assert.AreEqual(new Dollar(15), five.Times(3));  
+        }
+
+        public void TestFrancMultiplication()
+        {
+            Franc five = new Franc(5);
+            Assert.AreEqual(new Franc(10), five.Times(2)); 
+            Assert.AreEqual(new Franc(15), five.Times(3));  
         }
 
         [TestMethod]
