@@ -15,6 +15,7 @@ namespace KentBeckTDDSampleCodeTest
             Assert.AreEqual(new Dollar(15), five.Times(3));  
         }
 
+        [TestMethod]
         public void TestFrancMultiplication()
         {
             Franc five = new Franc(5);
