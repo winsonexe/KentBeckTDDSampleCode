@@ -11,10 +11,8 @@ namespace KentBeckTDDSampleCodeTest
         public void TestMultiplication()
         {
             Dollar five = new Dollar(5);
-            Dollar product = five.Times(2);
-            Assert.AreEqual(new Dollar(10), product); //讓兩個物件做比較
-            product = five.Times(3);
-            Assert.AreEqual(new Dollar(15), product);  //讓兩個物件做比較
+            Assert.AreEqual(new Dollar(10), five.Times(2)); //讓兩個物件做比較
+            Assert.AreEqual(new Dollar(15), five.Times(3));  //讓兩個物件做比較
         }
 
         [TestMethod]
