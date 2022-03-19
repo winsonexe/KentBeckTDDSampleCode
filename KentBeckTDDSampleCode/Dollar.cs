@@ -1,7 +1,7 @@
 
 namespace KentBeckTDDSampleCode
 {
-    public class Dollar
+    public class Dollar: Money
     {
         public int Amount;
 
