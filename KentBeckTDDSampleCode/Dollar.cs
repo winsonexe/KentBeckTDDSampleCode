@@ -3,8 +3,7 @@ namespace KentBeckTDDSampleCode
 {
     public class Dollar: Money
     {
-        public int Amount;
-
+        
         public Dollar(int amount)
         {
             this.Amount=amount;
