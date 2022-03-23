@@ -2,10 +2,8 @@
 {
     public class Franc : Money
     {
-        public Franc(int amount, string currency)
+        public Franc(int amount, string currency) : base(amount,currency)
         {
-            this.currency = currency;
-            this.Amount = amount;
         }
 
         public override Money Times(int multiplier)

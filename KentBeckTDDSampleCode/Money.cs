@@ -4,6 +4,13 @@
     {
         protected int Amount;
         protected string currency;
+
+        public Money(int amount, string currency)
+        {
+            this.currency = currency;
+            this.Amount = amount;
+        }
+
         public abstract Money Times(int multiplier);
 
         public override bool Equals(object obj)
