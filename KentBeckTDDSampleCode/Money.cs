@@ -15,6 +15,10 @@
         {
             return new Dollar(amount);
         }
+        public static Money Franc(int amount)
+        {
+            return new Franc(amount);
+        }
 
     }
 }
