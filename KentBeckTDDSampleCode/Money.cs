@@ -1,8 +1,9 @@
 ﻿namespace KentBeckTDDSampleCode
 {
-    public class Money
+    public abstract class Money
     {
-        protected int Amount; //子類別都能看見
+        protected int Amount;
+        public abstract Money Times(int multiplier);
 
         public override bool Equals(object obj)
         {
@@ -10,9 +11,10 @@
             return Amount == money.Amount&& GetType().Equals(money.GetType());
         }
 
-        protected static Dollar Dollar(int amount)
+        public static Money Dollar(int amount)
         {
             return new Dollar(amount);
         }
+
     }
 }

@@ -9,9 +9,8 @@ namespace KentBeckTDDSampleCode
             this.Amount=amount;
         }
 
-        public Money Times(int multiplier)
+        public override Money Times(int multiplier)
         {
-            Dollar five = Money.Dollar(5);
             return new Dollar(Amount * multiplier);
         }
 
