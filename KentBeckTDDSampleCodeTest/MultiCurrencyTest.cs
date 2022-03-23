@@ -34,10 +34,11 @@ namespace KentBeckTDDSampleCodeTest
             Assert.IsFalse(Money.Franc(5).Equals(Money.Dollar(5)));
         }
 
+        [TestMethod]
         public void TestCurrency()
         {
-            Assert.Equals("USD", Money.Dollar(1).Currency(1));
-            Assert.Equals("CHF", Money.Franc(1).Currency(1));
+            Assert.AreEqual("USD", Money.Dollar(1).Currency());
+            Assert.AreEqual("CHF", Money.Franc(1).Currency());
         }
     }
 }

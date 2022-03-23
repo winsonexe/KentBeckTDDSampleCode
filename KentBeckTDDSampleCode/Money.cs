@@ -5,6 +5,8 @@
         protected int Amount;
         public abstract Money Times(int multiplier);
 
+        public abstract string Currency();
+
         public override bool Equals(object obj)
         {
             Money money = (Money)obj;
@@ -19,6 +21,7 @@
         {
             return new Franc(amount);
         }
+
 
     }
 }
