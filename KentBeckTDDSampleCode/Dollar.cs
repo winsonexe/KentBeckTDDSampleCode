@@ -11,6 +11,7 @@ namespace KentBeckTDDSampleCode
 
         public Money Times(int multiplier)
         {
+            Dollar five = Money.Dollar(5);
             return new Dollar(Amount * multiplier);
         }
 

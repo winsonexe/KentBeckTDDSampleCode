@@ -9,5 +9,10 @@
             Money money = (Money)obj;
             return Amount == money.Amount&& GetType().Equals(money.GetType());
         }
+
+        protected static Dollar Dollar(int amount)
+        {
+            return new Dollar(amount);
+        }
     }
 }
