@@ -3,7 +3,7 @@ namespace KentBeckTDDSampleCode
 {
     public class Dollar: Money
     {
-        public Dollar(int amount)
+        public Dollar(int amount, string currency)
         {
             this.currency = "USD";
             this.Amount=amount;
@@ -11,7 +11,7 @@ namespace KentBeckTDDSampleCode
 
         public override Money Times(int multiplier)
         {
-            return new Dollar(Amount * multiplier);
+            return Money.Dollar(Amount * multiplier);
         }
 
     }

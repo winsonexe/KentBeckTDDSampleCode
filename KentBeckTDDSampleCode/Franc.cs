@@ -2,7 +2,7 @@
 {
     public class Franc : Money
     {
-        public Franc(int amount)
+        public Franc(int amount, string currency)
         {
             this.currency = "CHF";
             this.Amount = amount;
