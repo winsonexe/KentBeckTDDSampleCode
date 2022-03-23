@@ -2,8 +2,11 @@
 {
     public class Franc : Money
     {
+        private string currency;
+
         public Franc(int amount)
         {
+            this.currency = "CHF";
             this.Amount = amount;
         }
 
@@ -13,7 +16,7 @@
         }
         public override string Currency()
         {
-            return "CHF";
+            return currency;
         }
     }
 }

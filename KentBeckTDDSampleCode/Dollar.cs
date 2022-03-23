@@ -3,8 +3,11 @@ namespace KentBeckTDDSampleCode
 {
     public class Dollar: Money
     {
+        private string currency;
+
         public Dollar(int amount)
         {
+            this.currency = "USD";
             this.Amount=amount;
         }
 
@@ -15,7 +18,7 @@ namespace KentBeckTDDSampleCode
 
         public override string Currency()
         {
-            return "USD";
+            return currency;
         }
     }
 }
