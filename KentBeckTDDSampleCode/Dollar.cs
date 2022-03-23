@@ -3,8 +3,6 @@ namespace KentBeckTDDSampleCode
 {
     public class Dollar: Money
     {
-        private string currency;
-
         public Dollar(int amount)
         {
             this.currency = "USD";
@@ -16,9 +14,5 @@ namespace KentBeckTDDSampleCode
             return new Dollar(Amount * multiplier);
         }
 
-        public override string Currency()
-        {
-            return currency;
-        }
     }
 }

@@ -3,9 +3,8 @@
     public abstract class Money
     {
         protected int Amount;
+        protected string currency;
         public abstract Money Times(int multiplier);
-
-        public abstract string Currency();
 
         public override bool Equals(object obj)
         {
@@ -17,11 +16,15 @@
         {
             return new Dollar(amount);
         }
+
         public static Money Franc(int amount)
         {
             return new Franc(amount);
         }
 
-
+        public string Currency()
+        {
+            return currency;
+        }
     }
 }
