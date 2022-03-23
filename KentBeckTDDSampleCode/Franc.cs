@@ -4,13 +4,13 @@
     {
         public Franc(int amount, string currency)
         {
-            this.currency = "CHF";
+            this.currency = currency;
             this.Amount = amount;
         }
 
         public override Money Times(int multiplier)
         {
-            return new Franc(Amount * multiplier);
+            return Money.Franc(Amount * multiplier);
         }
     }
 }

@@ -5,7 +5,7 @@ namespace KentBeckTDDSampleCode
     {
         public Dollar(int amount, string currency)
         {
-            this.currency = "USD";
+            this.currency = currency;
             this.Amount=amount;
         }
 
