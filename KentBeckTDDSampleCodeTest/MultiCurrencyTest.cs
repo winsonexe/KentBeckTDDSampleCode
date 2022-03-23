@@ -33,5 +33,11 @@ namespace KentBeckTDDSampleCodeTest
             //compare franc and dollar will happen?
             Assert.IsFalse(Money.Franc(5).Equals(Money.Dollar(5)));
         }
+
+        public void TestCurrency()
+        {
+            Assert.Equals("USD", Money.Dollar(1).Currency(1));
+            Assert.Equals("CHF", Money.Franc(1).Currency(1));
+        }
     }
 }
