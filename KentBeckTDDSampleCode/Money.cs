@@ -24,7 +24,7 @@
         public override bool Equals(object obj)
         {
             Money money = (Money)obj;
-            return Amount == money.Amount&& GetType().Equals(money.GetType());
+            return Amount == money.Amount && currency.Equals(money.currency);
         }
 
         public static Money Dollar(int amount)
