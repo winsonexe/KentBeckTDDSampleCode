@@ -6,9 +6,9 @@
         {
         }
 
-        public override Money Times(int multiplier)
+        public Money Times(int multiplier)
         {
-            return new Franc(Amount * multiplier,currency);
+            return new Money(Amount * multiplier,currency);
         }
     }
 }

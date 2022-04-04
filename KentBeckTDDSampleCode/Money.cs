@@ -1,6 +1,6 @@
 ﻿namespace KentBeckTDDSampleCode
 {
-    public abstract class Money
+    public class Money
     {
         protected int Amount;
         protected string currency;
@@ -11,7 +11,10 @@
             this.Amount = amount;
         }
 
-        public abstract Money Times(int multiplier);
+        public Money Times(int multiplier)
+        {
+            return null;
+        }
 
         public override bool Equals(object obj)
         {
