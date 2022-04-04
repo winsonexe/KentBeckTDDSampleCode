@@ -13,7 +13,7 @@
 
         public virtual Money Times(int multiplier)
         {
-            return null;
+            return new Money(Amount * multiplier, currency);
         }
 
         public override string ToString()
@@ -41,5 +41,6 @@
         {
             return currency;
         }
+
     }
 }
