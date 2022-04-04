@@ -11,9 +11,14 @@
             this.Amount = amount;
         }
 
-        public Money Times(int multiplier)
+        public virtual Money Times(int multiplier)
         {
             return null;
+        }
+
+        public override string ToString()
+        {
+            return Amount+" "+currency;
         }
 
         public override bool Equals(object obj)

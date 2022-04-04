@@ -7,7 +7,7 @@ namespace KentBeckTDDSampleCode
         {
         }
 
-        public Money Times(int multiplier)
+        public override Money Times(int multiplier)
         {
             return new Dollar(Amount * multiplier,currency);
         }
